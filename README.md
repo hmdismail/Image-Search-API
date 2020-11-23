@@ -1,14 +1,14 @@
 Pre-requisite : Install Docker
 
-1. set ENV in docker-compose
+1. set ENV in docker-compose ((already has been put for faster code evaluation))
+
       - SECRET_KEY=random secret string
       - UNSPLASH_AK=unsplash access key
       - UNSPLASH_SK=unsplash secret key
       - PIXABAY_AK=pixabay access key
       - STORYBLOCKS_PK=storyblocks public key
       - STORYBLOCKS_PRK=storyblocks private key
-  (already has been put for faster code evaluation)
-  
+
 2. ```cd ``` into the folder and ```docker-compose up -d``` in the terminal
 3. signup on http://127.0.0.1:4001/graphql
 
